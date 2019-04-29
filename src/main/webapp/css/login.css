@@ -1,0 +1,88 @@
+
+header{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: dodgerblue;
+}
+header p{
+    width: 100%;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    font-size: 1.4em;
+}
+.body{
+
+    width: 100%;
+    margin: 10px auto;
+
+}
+.body input{
+    margin: 5px auto;
+    display: block;
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px dodgerblue solid;
+}
+.body .check{
+    overflow: hidden;
+    width: 60%;
+    display: block;
+    margin: 5px auto;
+}
+.body .check #checkbox{
+    -webkit-appearance:checkbox;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.body .check p{
+    height: 20px;
+    line-height: 30px;
+}
+#button{
+    display: block;
+    width: 60%;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.body a{
+    width: 30%;
+    margin: 10px auto;
+    display: block;
+}
+.body a p{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+}
+.clf{
+    overflow: hidden;
+}
+#tip{
+    max-width: 750px;
+    min-width: 375px;
+    position: fixed;
+    height: 50px;
+    display: none;
+    width: 100%;
+    top:50%;
+}
+#tip #word{
+    background:rgba(0,0,0,0.4);
+    text-align: center;
+    border-radius: 5px;
+    line-height: 50px;
+    color: white;
+    font-size: 1.2em;
+    display: block;
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+}

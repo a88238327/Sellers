@@ -1,0 +1,115 @@
+body,html{
+    max-width: 750px;
+    min-width: 375px;
+    margin: 0 auto;
+    border: 0;
+    padding: 0;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: dodgerblue;
+}
+header p{
+    width: 100%;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    font-size: 1.4em;
+}
+.body{
+    width: 100%;
+    margin: 10px auto;
+
+}
+.body input{
+    margin: 5px auto;
+    display: block;
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px dodgerblue solid;
+}
+#button{
+    display: block;
+    width: 60%;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+    line-height: 30px;
+}
+.body a{
+    width: 30%;
+    margin: 10px auto;
+    display: block;
+}
+.body a p{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+}
+.clf{
+    overflow: hidden;
+}
+.body #box{
+    width: 60%;
+    display: block;
+    margin: 10px auto;
+    border: 1px gainsboro solid;
+    border-radius: 5px;
+    height: 30px;
+    position: relative;
+}
+.body #box p{
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.2em;
+    z-index: 999;
+    position: absolute;
+}
+.body #box #box_left{
+    width: 0;
+    height: 30px;
+    float: left;
+    position: absolute;
+    top: 0;
+    background-color: #4CD864;
+
+}
+.body #box #box_right{
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: dodgerblue;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+}
+#tip{
+    max-width: 750px;
+    min-width: 375px;
+    position: fixed;
+    height: 50px;
+    display: none;
+    width: 100%;
+    top:50%;
+}
+#tip #word{
+    background:rgba(0,0,0,0.4);
+    text-align: center;
+    border-radius: 5px;
+    line-height: 50px;
+    color: white;
+    font-size: 1.2em;
+    display: block;
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+
+}
