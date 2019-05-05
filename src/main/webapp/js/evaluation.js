@@ -140,7 +140,7 @@ function tijiao() {
                         flag="false";
                         if(result=="true")
                         {
-                            location.href="userlogin";
+                            location.href="evaluationsuccess.html";
                         }
                     }
                 );
