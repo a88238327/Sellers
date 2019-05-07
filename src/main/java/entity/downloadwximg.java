@@ -24,6 +24,8 @@ public class downloadwximg {
 			String url=URL.replace("ACCESS_TOKEN", getToken.get_ACCESSTOKEN()).replace("MEDIA_ID", serverId[i]);		
 			byte[] b=WeiXinUtil.getFile(url);
 			FileOutputStream fos=new FileOutputStream("C:\\apache-tomcat-7.0.92\\webapps\\img\\evaluation\\"+orderID+"_"+i+".jpg");
+			String name=orderID+"_"+i+".jpg";
+			selectdata.insertevaluationimg(orderID,name);
 			BufferedOutputStream bos =new BufferedOutputStream(fos);  
 			bos.write(b);
 			bos.close();
