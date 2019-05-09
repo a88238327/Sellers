@@ -132,12 +132,21 @@ function compress(img, width, height, ratio) {
 
     //如果图片方向等于6 ，则旋转矫正，反之则不做处理
     if (orient == 6) {
+        canvas.width = height;
+        canvas.height = width;
         ctx.save();
-        ctx.translate(width / 2, height / 2);
+        ctx.translate(height, 0);
         ctx.rotate(90 * Math.PI / 180);
-        ctx.drawImage(img, 0 - height / 2, 0 - width / 2, height, width);
+        ctx.drawImage(img, 0, 0, width, height);
         ctx.restore();
-    } else {
+    }
+    else if (orient == 3) {
+        ctx.save();
+        //ctx.translate(width, -height);
+        ctx.rotate(Math.PI);
+        ctx.drawImage(img, -width , -height , width, height);
+        ctx.restore();
+    }else {
         ctx.drawImage(img, 0, 0, width, height);
     }
 

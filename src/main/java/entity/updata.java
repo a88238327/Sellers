@@ -181,7 +181,7 @@ public class updata {
 		//给用户发送模版消息
 		String openid=selectdata.getopenid(userphone);
 		String sellername=selectdata.getsellername(sellerphone);
-		String url="cloud.hnjtbf.com/Sellers/evaluation.html?orderID="+orderID;
+		String url="cloud2.hnjtbf.com/Sellers/evaluation.html?orderID="+orderID;
 		evaluation.postserviceevaluation(openid, createtime, servicename, sellername, url);
 		
 	}

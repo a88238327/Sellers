@@ -112,7 +112,7 @@ window.onload = function(){
     })
     tijiao();
 
-}
+};
 function tijiao() {
     var tijiao = document.getElementById("tijiao");
     tijiao.addEventListener("click",function () {
@@ -124,10 +124,12 @@ function tijiao() {
             flag="true";
             if(localIds.length>0)
             {
+
                 upimg(localIds);
             }
             else {
                 $.ajaxSettings.traditional=true;
+
                 $.post(
                     "evaluation",
                     {
