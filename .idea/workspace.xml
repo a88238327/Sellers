@@ -8,16 +8,17 @@
   <component name="ChangeListManager">
     <list default="true" id="97e482e0-16e5-4f4d-9639-752d41cb421f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/evaluation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/evaluation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/evaluationsuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/evaluationsuccess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/evaluation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/evaluation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/adduserinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/adduserinfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Sellers.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sellers.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Sellers/WEB-INF/classes/entity/downloadwximg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sellers/WEB-INF/classes/entity/downloadwximg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Sellers/WEB-INF/classes/entity/selectdata.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sellers/WEB-INF/classes/entity/selectdata.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sellers/WEB-INF/classes/entity/GetTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sellers/WEB-INF/classes/entity/GetTicket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sellers/WEB-INF/classes/entity/getToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sellers/WEB-INF/classes/entity/getToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sellers/WEB-INF/classes/entity/updata.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sellers/WEB-INF/classes/entity/updata.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sellers/evaluation.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sellers/evaluation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sellers/evaluationsuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sellers/evaluationsuccess.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Sellers/js/evaluation.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sellers/js/evaluation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Sellers/js/startservice.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Sellers/js/startservice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entity/downloadwximg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/downloadwximg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entity/selectdata.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/selectdata.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/GetTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/GetTicket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/getToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/getToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/updata.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/updata.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,38 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/adduserinfo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluationsuccess.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/evaluation.js">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/adduserinfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="79" column="38" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="38" />
+            <state relative-caret-position="462">
+              <caret line="87" column="47" lean-forward="true" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -104,7 +78,11 @@
     <findStrings>
       <find>flag</find>
       <find>media_id</find>
+      <find>cloud</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -127,6 +105,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/evaluation.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/evaluation.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/evaluationsuccess.html" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/getToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/GetTicket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/updata.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/adduserinfo.java" />
       </list>
     </option>
   </component>
@@ -188,12 +170,22 @@
               <item name="Sellers" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sellers" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sellers" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sellers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sellers" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,6 +327,8 @@
       <workItem from="1557020389396" duration="194000" />
       <workItem from="1557210796571" duration="3353000" />
       <workItem from="1557280069128" duration="1398000" />
+      <workItem from="1557370866550" duration="334000" />
+      <workItem from="1557885848690" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="maven">
       <created>1556529402946</created>
@@ -357,11 +351,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557211308960</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="maven">
+      <created>1557370984716</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557370984716</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35122000" />
+    <option name="totallyTimeSpent" value="35525000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,10 +374,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="89" width="950" height="810" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1039" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944505" visible="true" weight="0.22949003" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944505" visible="true" weight="0.15170941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -391,10 +392,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989035" weight="0.15761448" />
-      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.4977827" visible="true" weight="0.4618834" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49679488" visible="true" weight="0.19710468" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5022173" side_tool="true" visible="true" weight="0.4618834" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5032051" side_tool="true" visible="true" weight="0.19710468" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32963374" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -444,13 +445,6 @@
           <folding>
             <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/adduserinfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-946">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -593,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/adduserinfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlet/startservlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -607,24 +594,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/adduserinfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluationsuccess.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="748">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
+        <state relative-caret-position="792">
           <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/evaluation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="79" column="38" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="38" />
+        <state relative-caret-position="368">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/adduserinfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="87" column="47" lean-forward="true" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
         </state>
       </provider>
     </entry>

@@ -79,7 +79,7 @@ public class adduserinfo extends HttpServlet {
 			{
 				System.out.println("头像储存成功");
 			}
-			updata.updatainfo(dianpuming,mastername,servicephone,address,lat,lng,phone,"http://cloud.hnjtbf.com/img/touxiang/"+phone+"_touxiang.jpg",city,country,district,province,street,streetNumber,town,village);
+			updata.updatainfo(dianpuming,mastername,servicephone,address,lat,lng,phone,"https://cloud.hnjtbf.com/img/touxiang/"+phone+"_touxiang.jpg",city,country,district,province,street,streetNumber,town,village);
 			for(int i=0;i<checkboxvalue.length;i++)
 			{
 				String servicename=checkboxvalue[i];
